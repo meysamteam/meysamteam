@@ -1,5 +1,5 @@
--- #Beyond Reborn Robot
--- #@BeyondTeam
+-- #meysamteam Robot
+-- #@meyser26team
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -97,21 +97,21 @@ function create_config( )
     info_text = [[》Beyond Reborn v6.0
 An advanced administration bot based on https://valtman.name/telegram-cli
 
-》https://github.com/BeyondTeam/BDReborn 
+》https://github.com/meysamteam/meysamteam.git
 
 》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer《
-》@ToOfan ➣ Developer《
+》@Qoshachay26 ➣ Founder & Developer《
+》@sevdaahadpour ➣ Developer《
+》@dariush_71 ➣ Developer《
 
 》Special thanks to :
 》Beyond Team Members
 
 》Our channel :
-》@BeyondTeam《
+》@meyser26team《
 
 》Our website :
-》http://Beyond-Dev.iR
+》http://meyser26team.epage.ir
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
